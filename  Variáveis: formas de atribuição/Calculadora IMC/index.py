@@ -11,6 +11,3 @@ resultado = peso / (altura * altura)
 print("O seu IMC é: {} " .format(resultado))
 
 
-y= 2+3*5.
- 
-print(y)
