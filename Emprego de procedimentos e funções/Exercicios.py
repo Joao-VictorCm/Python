@@ -34,3 +34,30 @@ def fatorial_recursivo(n):
 numero = 4
 
 print(f"o Fatorial de {numero} é: {fatorial_recursivo(numero)} ")
+
+
+# Exercicio 3 
+# Implementar uma solução em Python que determine se um Numero é ou não Primo
+
+
+def ehPrimo(n):
+    if(n<2):
+        return False
+    i=n//2
+    while(i>1):
+        if(n%i==0):
+            return False
+        i=i-1
+        return True
+    
+
+def imprimirResultado(numero, resultado):
+    mensagem = f"O numero {numero} Não é primo"
+    if(resultado):
+        mensagem= f"O numero {numero} é primo"
+        return mensagem
+    
+numero = 5
+resultado= ehPrimo(numero)
+msg=imprimirResultado(numero, resultado)
+print(msg)
