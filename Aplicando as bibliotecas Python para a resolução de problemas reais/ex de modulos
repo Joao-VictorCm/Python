@@ -1,0 +1,25 @@
+
+math
+Usado para operações matemáticas.
+
+random
+Usado para gerar números pseudoaleatórios.
+
+smtplib
+Usado para permitir envio de e-mails.
+
+time
+Usado para implementar contadores temporais.
+
+tkinter
+Usado para desenvolver interfaces gráficas.
+
+
+Abaixo você encontra uma lista com alguns dos pacotes externos mais comuns e utilizados no mercado:
+Nome do módulo 	Pra que serve?
+numpy 	Cálculos, operações matemáticas e simulações
+pandas 	Manipulaçao de dados
+scikit-learn 	Modelos de aprendizado de máquina
+matplotlib 	Visualização de dados
+requests 	Biblioteca de comandos de comunicação pelo protocolo HTTP
+flask 	Construção de aplicações web
