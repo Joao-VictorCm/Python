@@ -1,5 +1,15 @@
-#  Implementar uma solução em Python que calcule as raizes
-# de uma equação do segundo grau 
+# Impletmentar uma solução em Python para visualizar dados de 
+# vendas de produtos em um grafico de barras
 
-# Ex: dada a aquação x2(x espoente 2) + 5x + 6 =0
-# as raizes são{-3,-2}
+
+import matplotlib.pyplot as plt
+
+x = ["A", "B", "C", "D"]
+y = [3,8,1,10]
+
+
+plt.bar(x, y)
+plt.xlabel("x letras")
+plt.ylabel("y numeros")
+plt.title("grafico ex 01")
+plt.show()
