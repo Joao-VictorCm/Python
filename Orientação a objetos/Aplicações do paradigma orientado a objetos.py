@@ -37,3 +37,5 @@ pessoa2 = Pessoa("joão", "rua 54321")
 
 print(f"Nome:{pessoa1.get_nome()}, Endereço:{pessoa1.get_ender()}")
 print(f"Nome:{pessoa2.get_nome()}, Endereço:{pessoa2.get_ender()}")
+
+
