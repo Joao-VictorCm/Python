@@ -1,0 +1,2 @@
+Os objetos clientes têm conhecimento apenas das operações que podem 
+ser requisitadas e precisam estar cientes somente do que elas realizam, e não de como estão implementadas.
