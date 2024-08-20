@@ -1,0 +1,5 @@
+Na orientação a objetos, a herança é um mecanismo por meio do qual classes compartilham atributos e comportamentos, 
+formando uma hierarquia. 
+Uma classe herdeira recebe as características de outra classe para reimplementá-las ou especializá-las de uma maneira diferente da classe Pai.
+
+
