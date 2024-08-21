@@ -22,5 +22,10 @@ def main():
     
     
     
+
+# Nesse caso, a condição do IF a seguir sera True
+# Então o que esta no corpo do IF sera executado. no caso,
+# é um chamado ao método main do script
+
 if __name__ == "__main__":
     main()
