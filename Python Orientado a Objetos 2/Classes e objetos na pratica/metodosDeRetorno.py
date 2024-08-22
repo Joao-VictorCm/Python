@@ -29,6 +29,8 @@ def main():
     valor_saque = 300
     resultado_saque = c1.sacar(valor_saque)
     
+    
+    #Validando o retorno para verificar se o saque foi realizado
     if resultado_saque:
         print(f"Saque de R${valor_saque} realizado com sucesso")
         print(f"Saldo atual: R${c1.saldo}")
