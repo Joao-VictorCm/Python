@@ -26,7 +26,7 @@ class Conta:
     
     def transfereValor(self, contaDestino, valor):
         if self.saldo < valor:
-            return("Não eciste saldo suficiente")
+            return("Não existe saldo suficiente")
         else:
             contaDestino.depositar(valor)
             self.saldo -= valor 
