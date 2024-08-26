@@ -11,23 +11,27 @@ class Televisão:
         self.cmax = max
         
     def muda_canal_para_baixo(self):
-        self.canal -= 1
+        if self.canal - 1 >= self.cmin:
+            self.canal -= 1
+        else:
+            self.canal -= 1
         
         
     def muda_canal_para_cima(self):
-        self.canal += 1
+        if self.canal + 1 <= self.cmax:
+            self.canal += 1
+        else:
+            self.canal = self.cmin
         
         
 tv1 = Televisão(pcanal= 2, min = 2, max = 10)
 print(tv1.canal)
-for x in range(1, 20):
-    tv1.muda_canal_para_cima()
-    print(tv1.canal)
+tv1.muda_canal_para_cima()
+print(tv1.canal)
     
 tv2 = Televisão(pcanal= 10, min = 2, max = 10)
 print(tv2.canal)
-for x in range(1, 20):
-    tv2.muda_canal_para_baixo()
-    print(tv2.canal)
+tv2.muda_canal_para_baixo()
+print(tv2.canal)
     
         
