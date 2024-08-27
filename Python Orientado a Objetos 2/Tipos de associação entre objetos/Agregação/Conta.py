@@ -30,3 +30,5 @@ class Conta:
         
     def gerarSaldo(self):
         print(f"numero:{self.numero} saldo:{self.saldo}")
+        
+        
