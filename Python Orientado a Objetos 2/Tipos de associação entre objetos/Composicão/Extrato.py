@@ -1,9 +1,9 @@
 class Extrato:
     def __init__(self):
-        self.transacoes = []  #Lista de transações da comta
-        
-        
-    def extrato(self, numeroConta):
-        print(f"Extrato:{numeroConta}")
-        for transacao in self.transacoes:
-            print(f"{transacao[0]:15s} {transacao[1]: 10.2f}")
+        self.transacoes = []
+
+
+    def extrato(self, numeroconta):
+        print(f"Extrato: {numeroconta} \n")
+        for p in self.transacoes:
+            print(f"{p[0]:15s} {p[1]:10.2f} {p[2]:10s} {p[3].strftime('%d/%b/%y')}")
